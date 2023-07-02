@@ -20,4 +20,3 @@ jobs:
         local_folder: ./
         remote_folder: /var/www/mc.0hwither.com/html/
         port: 22
-        exclude: "['.git/**','.github/**']"
