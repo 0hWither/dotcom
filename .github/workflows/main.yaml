@@ -22,3 +22,4 @@ jobs:
         port: 22
         exclude: '[".github/**",".git/**"]'
         cleanup: true
+        clean-exclude: 'movies/**'
