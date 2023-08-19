@@ -21,5 +21,4 @@ jobs:
         remote_folder: /var/www/mc.0hwither.com/html/
         port: 22
         exclude: '[".github/**",".git/**"]'
-        cleanup: true
-        clean-exclude: 'movies/**'
+        cleanup: false
