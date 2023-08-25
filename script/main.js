@@ -6,5 +6,8 @@ function openWindow() {
         } else if (Input.value=='mario64') {
         Input.value='';
         var x=window.open("https://0hwither.com/games/super.mario.64/index.html");
-        }
+        } else if (Input.value=='minecraft') {
+            Input.value='';
+            var x=window.open("https://0hwither.com/games/minecraft/index.html");
+            }
 }
