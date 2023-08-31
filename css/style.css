@@ -13,6 +13,8 @@
     cursor:default;
     font-size:40px;
     padding-bottom: 10px;
+
+    outline:none;
 }
 
 .pnf_submit {
