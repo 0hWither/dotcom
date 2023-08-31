@@ -17,6 +17,6 @@ function openWindow() {
             var x=window.open("https://0hwither.com/games/ctr/index.html");
         } else if (Input.value=='time'||'travel'||'timetravel') {
             Input.value='';
-            var x=window.open("https://0hwither.com/games/ctr=timetravel/index.html");
+            var x=window.open("https://0hwither.com/games/ctr-timetravel/index.html");
         }
 }
