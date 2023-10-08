@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../style.css">
+    <title>SCHOOLFLIX | MOVIES</title>
+    <link rel="icon" href="logo.png" type="image/png">
+  </head>
+  <body>
+    <div class="switch_wrapper">
+      <a href="https://forms.gle/oKfWfvGpWWR4p8gK7"><div class="plus radius tooltip" style="--l:                       35px;--t:3px;--c2:green; float:right;margin-left:10px;">
+        <span class="tooltiptext">Suggest Shows</span>
+        </div></a>
+
+      <h3 class="switch_title">Show Names</h3>
+      <label class="switch">
+        <input type="checkbox" id="switch" onclick="
+                                                    var a = document.getElementsByClassName('poster_overlayL');
+                                                    var c = document.getElementsByClassName('poster_overlay');
+                                                    var b = a.length;
+                                                    var d = c.length
+
+                                                    if (document.getElementById('switch').checked) {
+                                                    for (var i=0; i<b; i++) {
+                                                    a[i].style.display='block';
+                                                    }
+                                                    for (var i=0; i<d; i++) {
+                                                    c[i].style.display='block';
+                                                    }
+                                                    } else {
+                                                    for (var i=0; i<b; i++) {
+                                                    a[i].style.display='none';
+                                                    }
+                                                    for (var i=0; i<d; i++) {
+                                                    c[i].style.display='none';
+                                                    }
+                                                    }">
+        <span class="slider round"></span>
+      </label>
+
+    </div>
+
+    <a href=".."><h1 style="text-align:left; margin-bottom:15px;">SCHOOL<span class="h1color">FLIX</span></h1></a>
+
+    <!-- MOVIE ROWS -->
+    <h2 style="margin-left:20px; padding-top:15px; font-size:40px;">Kaleidoscope</h2>
+    <div class="row__posters">
+      <!-- POSTERS -->
+
+    </div>
+
+    <h2 style="margin-left:20px; padding-top:15px; font-size:40px;">Squid Game</h2>
+    <div class="row__posters">
+      <!-- POSTERS -->
+
+    </div>
+
+    <h2 style="margin-left:20px; padding-top:15px; font-size:40px;">The Good Place</h2>
+    <div class="row__posters">
+      <!-- POSTERS -->
+
+    </div>
+    <h2 style="margin-left:20px; padding-top:15px; font-size:40px;">Wednesday</h2>
+    <div class="row__posters">
+      <!-- POSTERS -->
+
+    </div>
+  </body>
+</html>

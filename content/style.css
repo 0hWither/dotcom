@@ -1,0 +1,284 @@
+* {
+    margin:0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #1c1c1c;
+    color: white;
+    font-family: sans-serif;
+    padding: 10px;
+  }
+  h1 {
+    color:gray;
+  }
+  h1 .h1color {
+   color:red; 
+  }
+  
+  
+  .row__poster {
+    object-fit: contain;
+    max-height: 200px;
+    margin-right:10px;
+    transition: transform 450ms;
+  }
+  
+  .row__posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+  }
+  
+  .row__poster:hover {
+    transform: scale(1.08);
+  }
+  
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #000000;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 2px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  
+  .row__posterLarge {
+    max-height:300px;
+  }
+  
+  .lastrow {
+    padding-bottom: 20px;
+  }
+  
+  .poster_container {
+    max-width: 139px;
+    margin-right:10px;
+  }
+  
+  .poster_containerL {
+    max-width: 202px;
+    margin-right:10px;
+    padding:0;
+  }
+  
+  .poster_overlay {
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    position:relative;
+    text-align: center;
+    display:none;
+    
+    margin: 0;
+    width:100%;
+  }
+  
+  .poster_container:hover .poster_overlay {
+    opacity:1;
+  }
+  .poster_containerL:hover .poster_overlay {
+    opacity:1;
+  }
+  
+  
+  /* The switch - the box around the slider */
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    float:right;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: red;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+  .switch_wrapper {
+    float:right;
+  }
+  
+  .switch_title {
+    float: left;
+    padding-top:5px;
+    padding-right:5px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  
+  .plus {
+    --t:2px;   /* Thickness */
+    --l:40px;  /* size of the symbol */
+    --s:10px;  /* space around the symbol */
+    --c1:#fff; /* Plus color*/
+    --c2:#000; /* background color*/
+  
+    display:inline-block;
+    width:var(--l);
+    height:var(--l);
+    padding:var(--s);
+    box-sizing:border-box; /*Remove this if you don't want space to be included in the size*/
+  
+    background:
+      linear-gradient(var(--c1) 0 0) content-box,
+      linear-gradient(var(--c1) 0 0) content-box,
+      var(--c2);
+    background-position:center;
+    background-size: 100% var(--t),var(--t) 100%;
+    background-repeat:no-repeat;
+    
+    cursor:pointer;
+  }
+  
+  .radius {
+    border-radius:50%;
+  }
+  
+  .plus:hover {
+    background-color:#599259 /* Selection Color */
+  }
+  
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    opacity: 0;
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 120%;
+    left: 50%;
+    margin-left: -90px;
+    
+    transition: .5s ease;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .selection_choice {
+    margin:5px;
+    border:none;
+    border-radius:3px;
+    padding:5px;
+    width:350px;
+    font-size:50px;
+  }
+  
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .selection_choice:hover {
+    background-color:darkgray;
+    border-style: solid;
+    border-color:white;
+    color:white;
+    cursor:pointer;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
