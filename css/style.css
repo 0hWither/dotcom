@@ -1,5 +1,6 @@
 body {
   font-family:sans-serif;
+  background-color:#1c1c1c;
 }
 
 .center {
@@ -29,21 +30,23 @@ body {
 
 .main_selection {
   padding: 15px;
-  background-color:rgb(194, 194, 194);
+  background-color:rgb(99, 99, 99);
   border:none;
   border-radius:8px;
-  height:500px;
+  max-height:500px;
   width:800px;
 
-  box-shadow: 10px 10px 30px 2px rgb(141, 141, 141) ;
+  box-shadow: 0px 10px 10px 2px rgb(0, 0, 0) ;
 
   overflow-y: scroll;
+
+  margin-top:15px;
 }
 
 .game_button {
   border:none;
   font-weight:bold;
-  background-color:gray;
+  background-color:rgb(0, 0, 0);
   color:white;
   border-radius:10px;
   padding:10px;
@@ -54,7 +57,7 @@ body {
 
 .game_button:hover {
   transform: scale(1.05);
-  background-color:rgb(102, 102, 102);
+  background-color:rgb(41, 41, 41);
 }
 
 .title {
@@ -72,10 +75,12 @@ body {
 
 ::-webkit-scrollbar {
   width: 10px;
+  border-radius:10px;
 }
 
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
+  display:none;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -94,4 +99,17 @@ body {
   width: 100%;
   position: fixed;
   z-index: 100;
+}
+
+.proxyIframe {
+  height:300px;
+  width:100%;
+  border-radius:15px;
+}
+
+.popout-img:hover {
+  transition-duration: 0.5s;
+  transition-timing-function:cubic-bezier(0.19, 1, 0.22, 1);
+  scale:1.2;
+  cursor:pointer;
 }
