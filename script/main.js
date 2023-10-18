@@ -20,3 +20,4 @@ function openWindow() {
             var x=window.open("https://0hwither.com/games/ctr-timetravel/index.html");
         }
 }
+
