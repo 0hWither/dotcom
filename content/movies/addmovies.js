@@ -11,16 +11,6 @@ const movies = [
     "cars.3",
     "frozen.2",
     "good.boys",
-    "avatar.way.of.the.water",
-    "back.to.the.future.1",
-    "back.to.the.future.2",
-    "back.to.the.future.3",
-    "big.hero.6",
-    "cars.1",
-    "cars.2",
-    "cars.3",
-    "frozen.2",
-    "good.boys",
     "hidden.figures",
     "how.to.train.your.dragon.1",
     "how.to.train.your.dragon.2",
@@ -57,6 +47,7 @@ const movies = [
     "toy.story.2",
     "toy.story.3",
     "toy.story.4",
+
 ]
 
 console.log(movies)
