@@ -1,0 +1,145 @@
+body {
+    background-color:#1c1c1c;
+    color: white;
+    font-family: sans-serif;
+}
+
+.container_main {
+    visibility: visible;
+}
+
+.episode_wrapper {
+    visibility: visible;
+    background-color:rgb(54, 54, 54);
+
+    display: flex;
+   align-items: center; 
+   justify-content: center;
+   border-radius:5px;
+
+   cursor:pointer;
+
+   text-decoration: none;
+
+   max-width: 930px;
+
+   margin:15px;
+}
+
+.episode_wrapper h1 {
+    color: gray;
+    float:left;
+
+    padding:10px;
+    text-decoration: none;
+}
+
+.hover-img img {
+    height:100px;
+    padding:0px;
+    float:left;
+    border-radius:5px;
+    transition:0.2s;
+}
+
+.hover-img img:hover {
+    scale:1.05;
+    cursor:pointer
+}
+
+
+.info_wrapper span {
+    float:right;
+    padding-right:15px;
+    text-decoration: none!important;
+}
+
+.title {
+    font-weight: bold;
+    color:white;
+    text-decoration: none!important;
+}
+
+.description {
+    color:rgb(165, 165, 165);
+    text-decoration: none!important;
+    padding:5px;
+}
+
+.hover-img {
+    border-radius:5px;
+    background-color: #000;
+    color: #ffffff;
+    display: inline-block;
+    margin: 8px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    height:100px;
+    width:250px;
+    cursor:pointer;
+  }
+  
+  .hover-img * {
+    box-sizing: border-box;
+    transition: all 0.45s ease;
+  }
+  
+  .hover-img::before,
+  .hover-img::after {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top: 32px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 32px solid rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    transition: all 0.3s ease;
+    z-index: 1;
+    opacity: 0;
+    transform: scaleY(2);
+  }
+  
+  .hover-img img {
+    vertical-align: top;
+    max-width: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .hover-img figcaption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.1em;
+    opacity: 0;
+    z-index: 2;
+    transition-delay: 0.1s;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+
+  
+  .episode_wrapper:hover > img {
+    opacity: 0.7;
+  }
+  
+  .episode_wrapper:hover figcaption {
+    opacity: 1;
+  }
+
+  a {
+    text-decoration:none!important;
+  }
