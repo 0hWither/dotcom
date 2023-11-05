@@ -1,5 +1,4 @@
 console.log("Running rick roll")
-let vid = document.getElementById("rickroll");
 
 document.onkeydown = function(e){
     e = e || window.event;
@@ -7,6 +6,7 @@ document.onkeydown = function(e){
     if(key===70||key===27){
          if(!document.fullscreenElement){
               requestFullScreen(document.getElementById("rickroll_wrapper"));
+              const vid = document.getElementById("rickroll");
               vid.volume = 1.0;
               vid.play();
           }else{
@@ -30,5 +30,3 @@ function requestFullScreen(elt) {
         console.error("Fullscreen not available");
     }
 }
-
-vid.play();
