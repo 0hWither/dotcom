@@ -1,4 +1,5 @@
 console.log("Running rick roll")
+let vid = document.getElementById("rickroll");
 
 document.onkeydown = function(e){
     e = e || window.event;
@@ -6,9 +7,8 @@ document.onkeydown = function(e){
     if(key===70||key===27){
          if(!document.fullscreenElement){
               requestFullScreen(document.getElementById("rickroll_wrapper"));
-              let vid = document.getElementById("rickroll");
               vid.volume = 1.0;
-              vid.play;
+              vid.play();
           }else{
               
           }
@@ -31,3 +31,4 @@ function requestFullScreen(elt) {
     }
 }
 
+vid.play();
