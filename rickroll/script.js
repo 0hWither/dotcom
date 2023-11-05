@@ -30,3 +30,4 @@ function requestFullScreen(elt) {
 
 let vid = document.getElementById("rickroll");
 vid.volume = 1.0;
+vid.play;
