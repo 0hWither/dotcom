@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
+
+    
+
     <link rel="icon" href="https://www.iconpacks.net/icons/2/free-youtube-logo-icon-2431-thumb.png" type="image/png">
     
     <title>---MOVIE NAME---</title>
     
   </head>
   <body style="background-color:black; margin:none; padding: none;">
-    <video 
-           src="https://0hwither.com/movies/.mp4"
-           type="video/mp4" 
-           controls 
-           controlsList="nodownload"
-           width=100%
-           height=100% 
-           style="margin:none;padding:none"
-           id = "videoplayer"
-    ></video>
+      
+      <video 
+      id = "videoplayer"
+      controls 
+      controlsList="nodownload"
+      preload="auto"
+      src="https://0hwither.com/movies/.mp4"
+      type="video/mp4" 
+      class="center"
+      height=90%
+      width="93%"
+      ></video>
+    
+    
 
     <script>
       /* ?video=back.to.the.future.1 */
@@ -57,7 +64,6 @@
         
         document.querySelector('title').textContent = title;
         video.setAttribute('src',videolink);
-        video.play();
 
         }
       });
