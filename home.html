@@ -1,55 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+  <title>Game Website</title>
+  <style>
+    body {
+      background-color: #1c1c1c;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      background-color: darkred;
+      border-radius:15px;
+      padding:10px;
+    }
+
+    .game-container {
+    text-align: center;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .game-icon {
+      width: 100px;
+      height: 100px;
+      background-image: url('game-icons.png');
+      background-repeat: no-repeat;
+      display: inline-block;
+      margin-right: 20px;
+      cursor: pointer;
+
+      background-color: rgb(44, 44, 44);
+
+      transition-duration: 0.5s;
+
+      margin-top:15px;
+
+      border-radius:8px;
+    }
+
+    .game-icon:hover {
+      transform: translateY(-10px);
+    }
+
+    .game-icon.minecraft {
+      background-position: 0 0;
+    }
+
+    .game-icon.subwaysurfers {
+      background-position: -100px 0;
+    }
+
+    .game-icon.cuttherope {
+      background-position: -200px 0;
+    }
+
+    .game-icon.cuttheropetimetravel {
+      background-position: -300px 0;
+    }
+
+    .game-icon.super-mario {
+      background-position: -400px 0;
+    }
+
+    .game-icon.schoolflix {
+      background-position: -500px 0;
+    }
     
-    <link rel="icon" type="image/x-icon" href="img/ico.svg">
-    <title>HOME</title>
+    .game-icon.bitplanes {
+      background-position: -600px 0;
+    }
+
+    .game-icon.chatgpt {
+      background-position: -700px 0;
+    }
+
+    h3 {
+        color:gray;
+        font-weight:normal;
+        font-style: italic;
+    }
+
+    a {
+        text-decoration: none;
+        color:rgb(73, 73, 73);
+        font-weight:bold;
+    }
+
+    a:hover {
+        color:rgb(170, 170, 170);
+    }
+
+  </style>
 </head>
 <body>
-    <!--PRE-LOADER-->
-    <div id="preloader"></div>
+    <div class="game-container">
+    <h1>www.0hWither.com</h1>
+    <h3>This page was mainly designed by chatGPT -- <a href="test_old.html">View original design generated</a></h3>
+        <a href="games/minecraft"><div class="game-icon minecraft"><p></p></div></a>
+        <a href="games/super.mario.64"><div class="game-icon super-mario"><p></p></div></a>
+        <a href="games/subway.surfers"><div class="game-icon subwaysurfers"><p></p></div></a>
+        <a href="games/ctr"><div class="game-icon cuttherope"><p></p></div></a>
+        <a href="games/ctr-timetravel"><div class="game-icon cuttheropetimetravel"><p></p></div></a>
+        <a href="games/bit-planes"><div class="game-icon bitplanes"><p></p></div></a>
+    <br>
+        <a href="content"><div class="game-icon schoolflix"><p></p></div></a>
+        <a href="chat-gpt"><div class="game-icon chatgpt"><p></p></div></a>
 
-    <div class="center main">
-        <p><div class="main_selection" id="othercontent">
-            <h1 class="title">GAMES</h1>
-            <hr>
-            <a href="games/subway.surfers/"><p><button class="game_button">
-                Subway Surfers
-            </button></p></a>
-    
-            <a href="games/ctr/"><p><button class="game_button">
-                Cut The Rope
-            </button></p></a>
-            <a href="games/ctr-timetravel/"><p><button class="game_button">
-                Cut The Rope : Time Travel
-            </button></p></a>
-            <a href="games/minecraft/"><p><button class="game_button">
-                Minecraft
-            </button></p></a>
-            <a href="games/super.mario.64/"><p><button class="game_button">
-                Super Mario 64
-            </button></p></a>
-            <a href="/content/"><p><button class="game_button">
-                SchoolFlix
-            </button></p></a>
-            <a href="/games/bit-planes/"><p><button class="game_button">
-                Bit Planes
-            </button></p></a>
-            <a href="/chat-gpt/"><p><button class="game_button">
-                Chat GPT
-            </button></p></a>
-        </div></p>
+
     </div>
-    </div>
-
-    
-
-   
-    <script src="script/home.js"></script>
-  </body>
+</body>
 </html>
-

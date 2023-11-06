@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Game Website</title>
+  <style>
+    body {
+      background-color: #1c1c1c;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+h1 {
+  color: darkred;
+}
+
+.game-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.game-icon {
+  width: 100px;
+  height: 100px;
+  background-image: url('game-icons.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.game-icon:hover {
+  animation: bounce 0.5s infinite;
+}
+
+.game-icon.minecraft {
+  background-position: 0 0;
+}
+
+.game-icon.super-mario {
+  background-position: -100px 0;
+}
+
+.game-icon.pokemon {
+  background-position: -200px 0;
+}
+
+.game-icon.zelda {
+  background-position: -300px 0;
+}
+
+.game-icon.metroid {
+  background-position: -400px 0;
+}
+
+.game-icon.star-fox {
+  background-position: -500px 0;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+</style>
+</head> <body> <div class="game-container"> <h1>Welcome to the Game Website!</h1> <div class="game-icon minecraft"></div> <div class="game-icon super-mario"></div> <div class="game-icon pokemon"></div> <div class="game-icon zelda"></div> <div class="game-icon metroid"></div> <div class="game-icon star-fox"></div> <br> <div class="game-icon minecraft"></div> <div class="game-icon super-mario"></div> <div class="game-icon pokemon"></div> <div class="game-icon zelda"></div> <div class="game-icon metroid"></div> <div class="game-icon star-fox"></div> <br> <div class="game-icon minecraft"></div> <div class="game-icon super-mario"></div> <div class="game-icon pokemon"></div> <div class="game-icon zelda"></div> <div class="game-icon metroid"></div> <div class="game-icon star-fox"></div> </div> </body> </html>
