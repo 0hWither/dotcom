@@ -31,10 +31,13 @@ function wrong() {
 var main = document.getElementById("main")
 var menu = document.getElementById("menu")
 
+var popup = document.getElementById("popup")
+
 function correct() {
     /* window.location="games/" */
     main.className="hide main center"
     setTimeout(function(){
         menu.className="main center menu"
+        popup.className="popup_notification"
     },600)
 }
