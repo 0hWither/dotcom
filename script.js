@@ -11,7 +11,7 @@ var button = document.getElementById("submit")
 var input = document.getElementById("pswd_input")
 
 function check() {
-    if (input.value=="8008135") {
+    if (input.value=="apple"||input.value=="APPLE") {
         correct()
     } else {
         wrong()

@@ -54,8 +54,8 @@ console.log(movies)
 
 function createPoster(movie_code) {
 
-    const movieURL = "https://0hwither.com/videoplayer/v.html?movie=" + movie_code;
-    const imageURL = "https://0hwither.com/content/movies/posters/" + movie_code + ".jpg";
+    const movieURL = "http://takeaim.store/videoplayer/index.html?movie=" + movie_code;
+    const imageURL = "http://takeaim.store/content/movies/posters/" + movie_code + ".jpg";
     const movieName = movie_code.replaceAll("."," ").charAt(0).toUpperCase() + movie_code.replaceAll("."," ").slice(1);;
 
     const container = document.getElementById("container");
