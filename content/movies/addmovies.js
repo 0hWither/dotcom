@@ -47,6 +47,7 @@ const movies = [
     "toy.story.2",
     "toy.story.3",
     "toy.story.4",
+    "fnaf",
 
 ]
 
