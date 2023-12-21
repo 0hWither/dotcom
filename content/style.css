@@ -281,9 +281,19 @@
     text-align: center;
   }
   
+  .disabled {
+    cursor: default;
+    opacity: 0.3;
+  }
   
-  
-  
+  .selection_choice_disabled {
+    margin:5px;
+    border:none;
+    border-radius:3px;
+    padding:5px;
+    width:350px;
+    font-size:50px;
+  }
   
   
   
