@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Home</title>
+</head>
+<body>
+    <img class="bg" src="imgs/bg-blurred.png">
+    <div class="main center" id="main">
+        <div class="center main2">
+            <h1>Password</h1>
+            <input autocomplete="off" placeholder="Input Password Here" id="pswd_input">
+            <p><button id="submit" class="submit_btn" onclick="check()">Submit</button></p></div>
+    </div>
+
+    <div class="center hide" id="menu">
+        <h1>Menu</h1>
+        <div class="center games">
+            <a href="/content"><div class="game_wrapper">
+                <img src="imgs/game-icons/netflix.png">
+            </div></a>
+
+            <a  href="/games/minecraft"><div class="game_wrapper">
+                <img src="imgs/game-icons/mc.png">
+            </div></a>
+
+            <a href="/games/super.mario.64"><div class="game_wrapper">
+                <img src="imgs/game-icons/mario64.png">
+            </div></a>
+
+            <a href="/games/subway.surfers"><div class="game_wrapper">
+                <img src="imgs/game-icons/subway.png">
+            </div></a>
+
+            <a href="/games/ctr"><div class="game_wrapper">
+                <img src="imgs/game-icons/cut_the_rope.png">
+            </div></a>
+
+            <a href="/games/ctr-timetravel"><div class="game_wrapper">
+                <img src="imgs/game-icons/cut_the_rope_time_travel.png">
+            </div></a>
+
+            
+        </div>
+    </div>
+
+    <div class="popup_notification hide" id="popup" >
+        <h1>Movies are fixed! (Shows are temporarily disabled)</h1>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
