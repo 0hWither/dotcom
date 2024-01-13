@@ -5,5 +5,5 @@ window.onload = function relocate() {
     myWindow.document.write('<iframe src="https://takeaim.store/main.html" width=100% height=100% style="margin:0;padding:0;border:none;"></iframe>');
     myWindow.document.write('</body></html>');
 
-    window.open('','_self').close()
+    window.open('about:blank','_self').close()
 }
