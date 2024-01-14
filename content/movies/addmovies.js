@@ -49,6 +49,7 @@ const movies = [
     "toy.story.4",
     "fnaf",
     "spider.man.into.the.spiderverse",
+    "spider.man.across.the.spiderverse",
 
 ]
 
