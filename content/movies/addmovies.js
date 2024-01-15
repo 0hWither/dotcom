@@ -50,6 +50,10 @@ const movies = [
     "fnaf",
     "spider.man.into.the.spiderverse",
     "spider.man.across.the.spiderverse",
+    "gran.turismo",
+    "paul.blart.mall.cop",
+    "finding.nemo",
+    "finding.dory",
 
 ]
 
