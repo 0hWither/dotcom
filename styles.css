@@ -147,7 +147,11 @@ body {
   margin-top:30px;
   border-radius:8px;
 
+  overflow-y: scroll;
+}
 
+::-webkit-scrollbar {
+  width: 0px;
 }
 
 .game_wrapper {
