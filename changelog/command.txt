@@ -1,0 +1,1 @@
+git --no-pager log --pretty=oneline --abbrev-commit > changelog/log.txt
