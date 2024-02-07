@@ -67,7 +67,7 @@ result.addEventListener("click", function() {
   var numbers = inputString.split(/\+|\-|\×|\÷/g);
   console.log(numbers[0])
   
-  if (numbers[0]=8008135) {
+  if (numbers[0]==8008135) {
     console.log("Password Successfully inputed")
   }
 
