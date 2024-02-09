@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Emulators</title>
+    <link rel="icon" type="image/x-icon" href="../img/mario.ico">
+
+    <style>
+        body {
+            background-color: #1c1c1c;
+            color:white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        .row__poster {
+    object-fit: contain;
+    max-height: 200px;
+    margin-right:10px;
+    transition: transform 450ms;
+  }
+  
+  .row__posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+  }
+  
+  .row__poster:hover {
+    transform: scale(1.08);
+  }
+  
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #1c1c1c;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 2px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+    </style>
+</head>
+<body>
+    <h1>Mario Emulators</h1>
+    <div id="container" class="row__posters">
+        <a href="../mario/mariokart64.html" target="_blank"><div class="poster_container">
+            <img class="poster_img row__poster" 
+            src="../img/mario/mario-kart-64.jpg">
+        </div></a>
+        <a href="../mario/marioparty.html" target="_blank"><div class="poster_container">
+            <img class="poster_img row__poster" 
+            src="../img/mario/mario-party.jpg">
+        </div></a>
+        <a href="../mario/marioparty2.html" target="_blank"><div class="poster_container">
+            <img class="poster_img row__poster" 
+            src="../img/mario/mario-party-2.jpg">
+        </div></a>
+        <a href="../mario/marioparty3.html" target="_blank"><div class="poster_container">
+            <img class="poster_img row__poster" 
+            src="../img/mario/mario-party-3.jpg">
+        </div></a>
+        <a href="../mario/supermariobros2.html" target="_blank"><div class="poster_container">
+            <img class="poster_img row__poster" 
+            src="../img/mario/super-mario-bros-2.jpg">
+        </div></a>
+        <a href="../mario/supermariobros3.html" target="_blank"><div class="poster_container">
+            <img class="poster_img row__poster" 
+            src="../img/mario/super-mario-bros-3.png">
+        </div></a>
+        <a href="../mario/supermariokart.html" target="_blank"><div class="poster_container">
+            <img class="poster_img row__poster" 
+            src="../img/mario/super-mario-kart.jpg">
+        </div></a>
+        
+    </div>
+</body>
+</html>
