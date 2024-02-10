@@ -1,1 +1,144 @@
-function a0_0x408d(_0x4303a5,_0x8d4eeb){var _0x2d4fd7=a0_0x2d4f();return a0_0x408d=function(_0x408df1,_0x2049ca){_0x408df1=_0x408df1-0x151;var _0x19d106=_0x2d4fd7[_0x408df1];if(a0_0x408d['UuPOZw']===undefined){var _0x590f38=function(_0x20a8d8){var _0x4927f5='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';var _0x3162de='',_0x382ed1='';for(var _0x521ca2=0x0,_0x2f16ed,_0x5116ce,_0x1dd25d=0x0;_0x5116ce=_0x20a8d8['charAt'](_0x1dd25d++);~_0x5116ce&&(_0x2f16ed=_0x521ca2%0x4?_0x2f16ed*0x40+_0x5116ce:_0x5116ce,_0x521ca2++%0x4)?_0x3162de+=String['fromCharCode'](0xff&_0x2f16ed>>(-0x2*_0x521ca2&0x6)):0x0){_0x5116ce=_0x4927f5['indexOf'](_0x5116ce);}for(var _0x150367=0x0,_0x575556=_0x3162de['length'];_0x150367<_0x575556;_0x150367++){_0x382ed1+='%'+('00'+_0x3162de['charCodeAt'](_0x150367)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x382ed1);};var _0x30c805=function(_0x286c22,_0x5c62b6){var _0x4619b9=[],_0x4a0fab=0x0,_0x326797,_0x447a13='';_0x286c22=_0x590f38(_0x286c22);var _0xd6a2e7;for(_0xd6a2e7=0x0;_0xd6a2e7<0x100;_0xd6a2e7++){_0x4619b9[_0xd6a2e7]=_0xd6a2e7;}for(_0xd6a2e7=0x0;_0xd6a2e7<0x100;_0xd6a2e7++){_0x4a0fab=(_0x4a0fab+_0x4619b9[_0xd6a2e7]+_0x5c62b6['charCodeAt'](_0xd6a2e7%_0x5c62b6['length']))%0x100,_0x326797=_0x4619b9[_0xd6a2e7],_0x4619b9[_0xd6a2e7]=_0x4619b9[_0x4a0fab],_0x4619b9[_0x4a0fab]=_0x326797;}_0xd6a2e7=0x0,_0x4a0fab=0x0;for(var _0x5df3f4=0x0;_0x5df3f4<_0x286c22['length'];_0x5df3f4++){_0xd6a2e7=(_0xd6a2e7+0x1)%0x100,_0x4a0fab=(_0x4a0fab+_0x4619b9[_0xd6a2e7])%0x100,_0x326797=_0x4619b9[_0xd6a2e7],_0x4619b9[_0xd6a2e7]=_0x4619b9[_0x4a0fab],_0x4619b9[_0x4a0fab]=_0x326797,_0x447a13+=String['fromCharCode'](_0x286c22['charCodeAt'](_0x5df3f4)^_0x4619b9[(_0x4619b9[_0xd6a2e7]+_0x4619b9[_0x4a0fab])%0x100]);}return _0x447a13;};a0_0x408d['ESPqjS']=_0x30c805,_0x4303a5=arguments,a0_0x408d['UuPOZw']=!![];}var _0x4d0b71=_0x2d4fd7[0x0],_0x559bbb=_0x408df1+_0x4d0b71,_0x408eea=_0x4303a5[_0x559bbb];return!_0x408eea?(a0_0x408d['RElpfA']===undefined&&(a0_0x408d['RElpfA']=!![]),_0x19d106=a0_0x408d['ESPqjS'](_0x19d106,_0x2049ca),_0x4303a5[_0x559bbb]=_0x19d106):_0x19d106=_0x408eea,_0x19d106;},a0_0x408d(_0x4303a5,_0x8d4eeb);}function a0_0x2d4f(){var _0x47254d=['WONdMCkUyb4Ko0SN','EbJcMCkxafxcV8owASk+tmopuMGl','WRJdUmotEZG1W4bFbG','W6CofGhcVCkweZOeWPSC','mmotWR4nWPXDwmof','zSkcWROoWPHiB8oyW53dUu7dQxG','WObdBCkbA8k5FCoqq1r0W4q','W5tdHmkBWQbFfvFcO1i','W5ypW5qpWOvbzG','W4dcHvVdPmoXlCoDcmks','WQ8GA8o5fmkojG','WQNcPCkOW7DetGtcPxq','W7XxhrtdLbtcNSkMW5fV','bqGTWPbAW5/dOmohsmolmvldHW','WP8HAIqsBmkGqSodWR1iW78','W6rQFSoiWQxdHKm','fColwSossCoD','vSoknumbWQ0J','W4tcL0xcOxPBxgjbW5bfsa','DmknWRmoWQ5aC8oyW5C','WRhcVSkGW6zluWVcSa','cKTqE8o9WRfr','WPeXqfpcQK3dJmk4W7rNW6HkWQO','WOddLxboxhZcMs1uW7VdIG','mgXfz8ocWQPgdmkEbq','wYNdTSohWRyzWQRdG8klt8oaW4RdPG','WQFdNKDulCk4W4xdKCo0W6mYW6G','W5RcM1RdRW','BGtcMmkteLNcNSorza','WR3dISk6BapdQmo4AaJdKa','WPe5tXddNd3cTmk2W6q','W4D4oNrmrSksz8oKWP9y','WQFdRCkBgq','W47cK8o9','W51AW4VdKa','W6pcRSkqBaOGW7Dka8kHWRu','BmkOWOldVSkR','W51uW4VdK8kf','wWaMW4z2d3NdHLq','W5NcHmo4FZqXl1GSWPWIhgv+','WR/cUCkPW7nwqIxcONRdO8ouqN7cRci','xGatjmk9W7noaCkfjSouW7u','scpcJcDnWPy','WQVcV8oYBZGJWOC','W6T/hCkxdCosW5jlWQRcISkqq0aBWPxdPSkrW6BdUKSLWQJdSSoonw9detXiWOjP','d0PMW4vLgey','W5bTdc7dRr7cLW','ASk2WORdSSk5fdpdN8k1','WPtcMmobW7OcvW','EalcMCkxaem','W6nAWRJdI8oDaq','W7r8ASocWRhdM15Opq','WOeqW65QW7e2nJO','xGizjCk5W7vTlmkLnSofW60','W7JdOw0BDa8SW7NcNCoKbq','hs8Vyu02WPVcSWeQWR7cP8ob','WR5cW4OQy3y','W4FdHmkrWRvebghcSv3cICo2jmk8wva','WOhdLeDFshZcMs9K','WOtcV1VdONpcVmonWP7dG0CoDa','WQJcRSk0W6y','W6eohGVcPmk9bG','qmkBamoarCo/jNRdSG','vraTW4S','WPFdMu3cKMVcG3m','W4FdL8kyWRG','jSoEW5iiW49I','cxFcPc7cNWisW4RdJ8oaiSojDmo/lW','W47cKudcQZujxMfTW4K','rmobjw8tWQeGWQxdIq','W6ldOxOFzamXW6JcMa','W7RcQN0IWPyaW5hcLXlcUgiJ','WQ/cO8oMrtWYWPRcVCk4W6xdI8kTW6GcW7RdJG','WQhdNKXq','WQFdQ8kDfCoFdSkgW78','W5NcHmo4DY84cW','BCk9WP3dP8kWeY7dN8kfWOGKW44','lCkTWP5T','W6rCWRldLSkch8oRW5rbW7PXxColWQXq','WP9mWRpdOmo8i8ozqSouW6zwxdfQ','WRVcQCoMzsW+WPRcRmkq','WOJdIbFdVa','gmofW4quW41G','WOyGBsayvSk6smov','lCoPW5ZcRSkLgsxdMmkvWOy'];a0_0x2d4f=function(){return _0x47254d;};return a0_0x2d4f();}(function(_0x4dec79,_0x24770a){var _0x7401b0=a0_0x408d,_0x21c64e=_0x4dec79();while(!![]){try{var _0x2761b9=parseInt(_0x7401b0(0x170,'^yCx'))/0x1*(-parseInt(_0x7401b0(0x173,'Tv[w'))/0x2)+parseInt(_0x7401b0(0x197,'O&qH'))/0x3*(parseInt(_0x7401b0(0x190,'OADE'))/0x4)+parseInt(_0x7401b0(0x1a5,'ky@3'))/0x5*(parseInt(_0x7401b0(0x19a,'eRuK'))/0x6)+parseInt(_0x7401b0(0x18f,'(dLt'))/0x7*(-parseInt(_0x7401b0(0x151,'eRuK'))/0x8)+parseInt(_0x7401b0(0x183,'or2x'))/0x9*(parseInt(_0x7401b0(0x175,'r22F'))/0xa)+-parseInt(_0x7401b0(0x187,'(dLt'))/0xb+parseInt(_0x7401b0(0x18a,'DY@W'))/0xc;if(_0x2761b9===_0x24770a)break;else _0x21c64e['push'](_0x21c64e['shift']());}catch(_0x501b1a){_0x21c64e['push'](_0x21c64e['shift']());}}}(a0_0x2d4f,0x408b1));var ejs_loader=function(_0x30c805){function _0x20a8d8(_0x3162de){var _0x2b314d=a0_0x408d;if(_0x4927f5[_0x3162de])return _0x4927f5[_0x3162de][_0x2b314d(0x19c,'9Jtt')];var _0x382ed1=_0x4927f5[_0x3162de]={'i':_0x3162de,'l':!0x1,'exports':{}};return _0x30c805[_0x3162de][_0x2b314d(0x193,'wo4P')](_0x382ed1[_0x2b314d(0x186,'eRuK')],_0x382ed1,_0x382ed1[_0x2b314d(0x179,'@2Ye')],_0x20a8d8),_0x382ed1['l']=!0x0,_0x382ed1[_0x2b314d(0x19e,'O&qH')];}var _0x4927f5={};return _0x20a8d8['m']=_0x30c805,_0x20a8d8['c']=_0x4927f5,_0x20a8d8['d']=function(_0x521ca2,_0x2f16ed,_0x5116ce){var _0xf6aaed=a0_0x408d;_0x20a8d8['o'](_0x521ca2,_0x2f16ed)||Object[_0xf6aaed(0x198,'RE%s')](_0x521ca2,_0x2f16ed,{'enumerable':!0x0,'get':_0x5116ce});},_0x20a8d8['r']=function(_0x1dd25d){var _0x343706=a0_0x408d;_0x343706(0x17a,'Kkk3')!=typeof Symbol&&Symbol['toStringTag']&&Object[_0x343706(0x16b,'r2T]')](_0x1dd25d,Symbol[_0x343706(0x188,'7mQu')],{'value':_0x343706(0x16e,'v@FW')}),Object['defineProperty'](_0x1dd25d,_0x343706(0x17d,'(dLt'),{'value':!0x0});},_0x20a8d8['t']=function(_0x150367,_0x575556){var _0x36f201=a0_0x408d;if(0x1&_0x575556&&(_0x150367=_0x20a8d8(_0x150367)),0x8&_0x575556)return _0x150367;if(0x4&_0x575556&&'object'==typeof _0x150367&&_0x150367&&_0x150367['__esModule'])return _0x150367;var _0x286c22=Object['create'](null);if(_0x20a8d8['r'](_0x286c22),Object['defineProperty'](_0x286c22,_0x36f201(0x167,'RE%s'),{'enumerable':!0x0,'value':_0x150367}),0x2&_0x575556&&_0x36f201(0x15e,'v@FW')!=typeof _0x150367){for(var _0x5c62b6 in _0x150367)_0x20a8d8['d'](_0x286c22,_0x5c62b6,function(_0x4619b9){return _0x150367[_0x4619b9];}[_0x36f201(0x169,'lDnY')](null,_0x5c62b6));}return _0x286c22;},_0x20a8d8['n']=function(_0x4a0fab){var _0x16bfb3=a0_0x408d,_0x326797=_0x4a0fab&&_0x4a0fab[_0x16bfb3(0x189,'eRuK')]?function(){var _0x3ceae3=_0x16bfb3;return _0x4a0fab[_0x3ceae3(0x17b,'*jC9')];}:function(){return _0x4a0fab;};return _0x20a8d8['d'](_0x326797,'a',_0x326797),_0x326797;},_0x20a8d8['o']=function(_0x447a13,_0xd6a2e7){var _0x190c15=a0_0x408d;return Object[_0x190c15(0x178,'yJfa')]['hasOwnProperty'][_0x190c15(0x15d,'yJfa')](_0x447a13,_0xd6a2e7);},_0x20a8d8['p']='',_0x20a8d8(_0x20a8d8['s']=0x149);}({0x149:function(_0x5df3f4,_0x535802,_0x18f77d){'use strict';var _0x324b9f=a0_0x408d;_0x18f77d['r'](_0x535802);var _0x1c1bc2=_0x18f77d(0x35),_0x11e0c2=_0x18f77d(0x5f),_0x2520bc=_0x18f77d['n'](_0x11e0c2);!function(_0xde5bda,_0x53ddd8,_0x47ae3e,_0x59018d){var _0x5c199b=a0_0x408d,_0xf0684e,_0x5e765b=_0x59018d[_0x5c199b(0x195,'^yCx')]('?'),_0x439aa1=_0x5e765b[0x0],_0x39e551=_0x5e765b[0x1],_0x382e24=!0x1;try{window[_0x5c199b(0x17f,'OADE')]&&window['localStorage']instanceof Storage&&(_0x382e24=!0x0);}catch(_0x33bd5c){_0x382e24=!0x1;}var _0x185e65,_0x345f08=function(_0x2aaef5,_0x350774,_0x471741,_0x3540ba){var _0x5b4d1a=_0x5c199b,_0x288452=_0x350774[_0x5b4d1a(0x17e,'eU5#')](_0x471741),_0xb67570=_0x350774['getElementsByTagName'](_0x471741)[0x0];_0x288452['async']=0x1,_0x288452[_0x5b4d1a(0x192,'RE%s')]=_0x3540ba,_0xb67570['parentNode'][_0x5b4d1a(0x177,'heZJ')](_0x288452,_0xb67570),_0x288452['onload']=function(){var _0x494e77=_0x5b4d1a;if('undefined'==typeof EJS_emulator){var _0x518971={};_0x518971[_0x494e77(0x15c,'X0BD')]=EJS_gameUrl,_0x494e77(0x162,'63dG')!=typeof EJS_biosUrl&&(_0x518971['biosUrl']=EJS_biosUrl),_0x494e77(0x156,'7mQu')!=typeof EJS_gameID&&(_0x518971[_0x494e77(0x181,'a(fP')]=EJS_gameID),_0x494e77(0x161,'AIqw')!=typeof EJS_gameParentUrl&&(_0x518971[_0x494e77(0x176,'r22F')]=EJS_gameParentUrl),_0x494e77(0x17c,'!yMG')!=typeof EJS_gamePatchUrl&&(_0x518971['gamePatchUrl']=EJS_gamePatchUrl),_0x518971[_0x494e77(0x19b,'40nH')]=EJS_core,_0x518971[_0x494e77(0x194,'Tv[w')]=null,_0x518971[_0x494e77(0x174,'rtGs')]=null,_0x494e77(0x18d,'H4gK')!=typeof EJS_onSaveState&&(_0x518971[_0x494e77(0x152,'63dG')]=EJS_onSaveState),_0x494e77(0x17a,'Kkk3')!=typeof EJS_onLoadState&&(_0x518971['onloadstate']=EJS_onLoadState),_0x494e77(0x184,'r22F')!=typeof EJS_lightgun&&(_0x518971[_0x494e77(0x166,'c3rt')]=EJS_lightgun),'undefined'!=typeof EJS_mouse&&(_0x518971['mouse']=EJS_mouse),_0x494e77(0x16c,'9Jtt')!=typeof EJS_multitap&&(_0x518971[_0x494e77(0x185,'!yMG')]=EJS_multitap),'undefined'!=typeof EJS_playerName&&(_0x518971['playerName']=EJS_playerName),_0x494e77(0x1a4,'V]1w')!=typeof EJS_cheats&&(_0x518971[_0x494e77(0x1a2,'H4gK')]=EJS_cheats),_0x494e77(0x17c,'!yMG')!=typeof EJS_color&&(_0x518971[_0x494e77(0x196,'wo4P')]=EJS_color),window['EJS_emulator']=new EJS(EJS_player,_0x518971),_0x494e77(0x1a0,'^yCx')!=typeof EJS_onGameStart&&EJS_emulator['on'](_0x494e77(0x18e,'TeN@'),EJS_onGameStart);}};};_0x382e24&&((_0xf0684e=localStorage[_0x5c199b(0x182,'AIqw')](_0x439aa1))&&(_0x185e65=_0xf0684e[_0x5c199b(0x159,'rtGs')]('|'),_0xf0684e['substring'](0x0,_0x185e65)==_0x39e551?(_0x59018d=URL[_0x5c199b(0x172,'H4gK')](new Blob([_0xf0684e['substring'](_0x185e65+0x1)],{'type':'text/javascript'})),_0x345f08(0x0,_0x53ddd8,_0x47ae3e,_0x59018d)):_0xf0684e=null));if(!_0xf0684e){if(_0x5c199b(0x16c,'9Jtt')==typeof fetch){var _0x4fd16e=new XMLHttpRequest();'withCredentials'in _0x4fd16e&&(_0x4fd16e[_0x5c199b(0x164,'9Jtt')](_0x5c199b(0x191,'c3rt'),function(){var _0x280342=_0x5c199b,_0x580743=URL[_0x280342(0x155,'yJfa')](new Blob([_0x4fd16e[_0x280342(0x168,'^yCx')]],{'type':_0x280342(0x16a,'HnE!')}));try{localStorage[_0x280342(0x19f,'(dLt')](_0x439aa1,_0x39e551+'|'+_0x4fd16e[_0x280342(0x157,'dOE0')]);}catch(_0x5989ce){}_0x345f08(0x0,_0x53ddd8,_0x47ae3e,_0x580743);}),_0x4fd16e[_0x5c199b(0x18c,'Kkk3')]('GET',_0x59018d,!0x0),_0x4fd16e[_0x5c199b(0x18b,'1b(w')]=_0x5c199b(0x158,'!yMG'),_0x4fd16e['send']());}else fetch(_0x59018d,{})[_0x5c199b(0x15b,'7kqj')](function(_0x3cea48){var _0x443c4e=_0x5c199b;return _0x3cea48[_0x443c4e(0x165,'1b(w')]();})[_0x5c199b(0x16d,'or2x')](function(_0x5e91f7){var _0x2c8ea3=_0x5c199b,_0x2c3fe8=URL[_0x2c8ea3(0x199,'!yMG')](new Blob([_0x5e91f7],{'type':_0x2c8ea3(0x15f,'&ha%')}));try{localStorage['setItem'](_0x439aa1,_0x39e551+'|'+_0x5e91f7);}catch(_0x41810e){}_0x345f08(0x0,_0x53ddd8,_0x47ae3e,_0x2c3fe8);});}}(window,document,_0x324b9f(0x1a3,'HnE!'),[_0x324b9f(0x16f,'OADE')==typeof WebAssembly?_0x2520bc['a']['scriptLegacy']:_0x2520bc['a'][_0x324b9f(0x154,'RJia')],'?v=',_0x1c1bc2['a']]['join'](''));},0x35:function(_0x20b22d,_0x47c9e1){'use strict';var _0x23b014=a0_0x408d;_0x47c9e1['a']=_0x23b014(0x1a1,'yJfa');},0x5f:function(_0xb10b31){var _0x4c0f44=a0_0x408d;_0xb10b31[_0x4c0f44(0x180,'V]1w')]={'script':_0x4c0f44(0x19d,'&9ZO'),'scriptLegacy':'//www.emulatorjs.com/emulator-legacy.js'};}})['default'];
+(async function() {
+    const folderPath = (path) => path.substring(0, path.length - path.split('/').pop().length);
+    let scriptPath = (typeof window.EJS_pathtodata === "string") ? window.EJS_pathtodata : folderPath((new URL(document.currentScript.src)).pathname);
+    if (!scriptPath.endsWith('/')) scriptPath+='/';
+    //console.log(scriptPath);
+    function loadScript(file) {
+        return new Promise(function (resolve, reject) {
+            let script = document.createElement('script');
+            script.src = function() {
+                if ('undefined' != typeof EJS_paths && typeof EJS_paths[file] === 'string') {
+                    return EJS_paths[file];
+                } else {
+                    return scriptPath+file;
+                }
+            }();
+            script.onload = resolve;
+            script.onerror = () => {
+                filesmissing(file).then(e => resolve());
+            }
+            document.head.appendChild(script);
+        })
+    }
+    function loadStyle(file) {
+        return new Promise(function(resolve, reject) {
+            let css = document.createElement('link');
+            css.rel = 'stylesheet';
+            css.href = function() {
+                if ('undefined' != typeof EJS_paths && typeof EJS_paths[file] === 'string') {
+                    return EJS_paths[file];
+                } else {
+                    return scriptPath+file;
+                }
+            }();
+            css.onload = resolve;
+            css.onerror = () => {
+                filesmissing(file).then(e => resolve());
+            }
+            document.head.appendChild(css);
+        })
+    }
+
+    async function filesmissing(file) {
+        console.error("Failed to load " + file);
+        let minifiedFailed = file.includes(".min.") && !file.includes("socket");
+        console[minifiedFailed?"warn":"error"]("Failed to load " + file + " beacuse it's likly that the minified files are missing.\nTo fix this you have 3 options:\n1. You can download the zip from the latest release here: https://github.com/EmulatorJS/EmulatorJS/releases/latest - Stable\n2. You can download the zip from here: https://cdn.emulatorjs.org/latest/data/emulator.min.zip and extract it to the data/ folder. (easiest option) - Beta\n3. You can build the files by running `npm i && npm run build` in the data/minify folder. (hardest option) - Beta\nNote: you will probably need to do the same for the cores, extract them to the data/cores/ folder.");
+        if (minifiedFailed) {
+            console.log("Attempting to load non-minified files");
+            if (file === "emulator.min.js") {
+                await loadScript('emulator.js');
+                await loadScript('nipplejs.js');
+                await loadScript('shaders.js');
+                await loadScript('storage.js');
+                await loadScript('gamepad.js');
+                await loadScript('GameManager.js');
+                await loadScript('socket.io.min.js');
+            } else {
+                await loadStyle('emulator.css');
+            }
+        }
+    }
+    
+    if (('undefined' != typeof EJS_DEBUG_XX && true === EJS_DEBUG_XX)) {
+        await loadScript('emulator.js');
+        await loadScript('nipplejs.js');
+        await loadScript('shaders.js');
+        await loadScript('storage.js');
+        await loadScript('gamepad.js');
+        await loadScript('GameManager.js');
+        await loadScript('socket.io.min.js');
+        await loadStyle('emulator.css');
+    } else {
+        await loadScript('emulator.min.js');
+        await loadStyle('emulator.min.css');
+    }
+    const config = {};
+    config.gameUrl = window.EJS_gameUrl;
+    config.dataPath = scriptPath;
+    config.system = window.EJS_core;
+    config.biosUrl = window.EJS_biosUrl;
+    config.gameName = window.EJS_gameName;
+    config.color = window.EJS_color;
+    config.adUrl = window.EJS_AdUrl;
+    config.adMode = window.EJS_AdMode;
+    config.adTimer = window.EJS_AdTimer;
+    config.adSize = window.EJS_AdSize;
+    config.alignStartButton = window.EJS_alignStartButton;
+    config.VirtualGamepadSettings = window.EJS_VirtualGamepadSettings;
+    config.buttonOpts = window.EJS_Buttons;
+    config.volume = window.EJS_volume;
+    config.defaultControllers = window.EJS_defaultControls;
+    config.startOnLoad = window.EJS_startOnLoaded;
+    config.fullscreenOnLoad = window.EJS_fullscreenOnLoaded;
+    config.filePaths = window.EJS_paths;
+    config.loadState = window.EJS_loadStateURL;
+    config.cacheLimit = window.EJS_CacheLimit;
+    config.cheats = window.EJS_cheats;
+    config.defaultOptions = window.EJS_defaultOptions;
+    config.gamePatchUrl = window.EJS_gamePatchUrl;
+    config.gameParentUrl = window.EJS_gameParentUrl;
+    config.netplayUrl = window.EJS_netplayServer;
+    config.gameId = window.EJS_gameID;
+    config.backgroundImg = window.EJS_backgroundImage;
+    config.backgroundBlur = window.EJS_backgroundBlur;
+    config.backgroundColor = window.EJS_backgroundColor;
+    config.controlScheme = window.EJS_controlScheme;
+    config.threads = window.EJS_threads;
+    config.disableCue = window.EJS_disableCue;
+    config.startBtnName = window.EJS_startButtonName;
+    config.softLoad = window.EJS_softLoad;
+    config.screenRecording = window.EJS_screenRecording;
+    config.externalFiles = window.EJS_externalFiles;
+    config.disableDatabases = window.EJS_disableDatabases;
+    config.disableLocalStorage = window.EJS_disableLocalStorage;
+    
+    if (typeof window.EJS_language === "string" && window.EJS_language !== "en-US") {
+        try {
+            let path;
+            if ('undefined' != typeof EJS_paths && typeof EJS_paths[window.EJS_language] === 'string') {
+                path = EJS_paths[window.EJS_language];
+            } else {
+                path = scriptPath+"localization/"+window.EJS_language+".json";
+            }
+            config.language = window.EJS_language;
+            config.langJson = JSON.parse(await (await fetch(path)).text());
+        } catch(e) {
+            config.langJson = {};
+        }
+    }
+    
+    window.EJS_emulator = new EmulatorJS(EJS_player, config);
+    window.EJS_adBlocked = (url, del) => window.EJS_emulator.adBlocked(url, del);
+    if (typeof window.EJS_ready === "function") {
+        window.EJS_emulator.on("ready", window.EJS_ready);
+    }
+    if (typeof window.EJS_onGameStart === "function") {
+        window.EJS_emulator.on("start", window.EJS_onGameStart);
+    }
+    if (typeof window.EJS_onLoadState === "function") {
+        window.EJS_emulator.on("load", window.EJS_onLoadState);
+    }
+    if (typeof window.EJS_onSaveState === "function") {
+        window.EJS_emulator.on("save", window.EJS_onSaveState);
+    }
+})();
