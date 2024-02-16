@@ -13,12 +13,13 @@
 	<script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var unityInstance = UnityLoader.instantiate("gameContainer", "Build/BitLife.json", {onProgress: UnityProgress});
+      var unityInstance = UnityLoader.instantiate("fs-element", "Build/BitLife.json", {onProgress: UnityProgress});
     </script>
   </head>
-  <body>
+  <body style="background-color:#1c1c1c">
   <div class="webgl-content">
-      <div id="gameContainer" style="width: 100%; height: 100%;"></div>
+      <div id="fs-element" style="width: 100%; height: 100%;"></div>
     </div>
+    <script src="../../fs/main.js"></script>
 </body>
 </html>

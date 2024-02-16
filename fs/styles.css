@@ -1,0 +1,24 @@
+.fs-btn {
+    height:50px;
+    width:50px;
+    border:none;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    cursor:pointer;
+    transition-duration: 0.45s;
+    margin:10px;
+    position:fixed; right:0px; bottom:0; margin:10px; padding:0px;
+}
+
+.fs-btn:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    scale:1.05;
+}
+
+.fs-disabled {
+    background: url(img/true.svg) no-repeat center bottom/cover;
+}
+
+.fs-enabled {
+    background: url(img/false.svg) no-repeat center bottom/cover;
+}

@@ -6,8 +6,12 @@
         var gameInstance = UnityLoader.instantiate("gameContainer", "Build/build.json", { onProgress: UnityProgress, Module: { onRuntimeInitialized: function() { UnityProgress(gameInstance, "complete") } } });
     </script>
 </head>
-<body style="margin: 0; overflow: hidden;">
+<body style="margin: 0; overflow: hidden; background-color: #1c1c1c;">
     <div class="webgl-content">
         <div id="gameContainer" style="width: 100%; height: 100%; margin: 0;"></div>
     </div>
+    <script src="../../fs/main.js"></script>
+  <script>
+    var fs = document.getElementById("gameContainer")
+  </script>
 </body>
