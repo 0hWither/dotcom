@@ -36,7 +36,8 @@
       }
 
       const pageURL = window.location.href;
-      const pageHost = window.location.href.split("/")[0]
+      const pageHost = pageURL.split("/")[2]
+      console.log(pageHost)
       var video = document.getElementById('videoplayer');
 
       const parameter = splitURL(pageURL)[0];
