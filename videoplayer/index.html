@@ -17,7 +17,7 @@
       controls 
       controlsList="nodownload"
       preload="auto"
-      src="https://takeaim.store/movies/.mp4"
+      src="EMPTY"
       type="video/mp4" 
       class="center"
       height=90%
@@ -36,6 +36,7 @@
       }
 
       const pageURL = window.location.href;
+      const pageHost = window.location.href.split("/")[0]
       var video = document.getElementById('videoplayer');
 
       const parameter = splitURL(pageURL)[0];
@@ -48,7 +49,7 @@
 
         /* ?movie=back.to.the.future.1 */
 
-        const videolink = "https://dontbeannoying.shop/movies/" + value + ".mp4";
+        const videolink = pageHost + "/movies/" + value + ".mp4";
         const title = value.replaceAll("."," ").charAt(0).toUpperCase() + value.replaceAll("."," ").slice(1);;
         
         document.querySelector('title').textContent = title
@@ -59,7 +60,7 @@
         
         /*  ?show=wednesday&s1&1.Wednesdays.Child.Is.Full.Of.Woe  */
 
-        const videolink = "https://dontbeannoying.shop/shows/" + value.split("&")[0] + "/" + value.split("&")[1] + "/" + value.split("&")[2] + ".mp4"
+        const videolink = pageHost + "/shows/" + value.split("&")[0] + "/" + value.split("&")[1] + "/" + value.split("&")[2] + ".mp4"
         const title = value.split("&")[0].replaceAll("."," ").charAt(0).toUpperCase() + value.split("&")[0].replaceAll("."," ").slice(1) + " :" + value.split("&")[2].slice(1).replaceAll("."," ");
         
         document.querySelector('title').textContent = title;
